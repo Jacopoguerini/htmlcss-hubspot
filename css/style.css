@@ -40,6 +40,10 @@ body {
     margin: 0 auto;
 }
 
+.fixed {
+    width: 100%;
+    position: fixed;
+}
 
 .col-left {
     text-align: left;
@@ -51,7 +55,6 @@ body {
 
 .list-inline {
     line-height: 100%;
-    vertical-align: middle;
 }
 
 .list-inline li {
@@ -67,6 +70,9 @@ body {
 .down-arrow {
     color: #33475b;
     font-size: 12px;
+    padding-left: 3px;
+}
+#language-arrow {
     margin-right: 20px;
 }
 
@@ -95,6 +101,10 @@ body {
 .btn-orange {
     color: white;
     background-color: #fe775a;
+    border: 1px solid #fe775a;
+}
+.btn-free {
+    margin: 0;
 }
 
 /* header */
@@ -102,8 +112,8 @@ body {
     border-bottom: 1px solid black;
 }
 #header-fixed {
-    height: 80px;
-    line-height: 80px;
+    height: 100px;
+    padding: 35px 0;
     color: #33475b;
     font-size: 14px;
 }
@@ -112,8 +122,39 @@ body {
     filter: invert(70%);
 }
 
+.list-left {
+    padding-top: 7px;
+}
+
 li > img {
     height: 14px;
+}
+
+.contact {
+    padding-left: 20px;
+    border-left: 1.5px solid #33475b
+}
+
+/* nav */
+.header-nav {
+    height: 100px;
+    line-height: 100px;
+}
+
+.nav-left img {
+    vertical-align: middle;
+}
+
+.nav-right {
+    vertical-align: middle;
+}
+
+.nav-right > .list-inline {
+    line-height: 100px;
+}
+
+.nav-right li:not(:last-child) {
+    margin-right: 20px;
 }
 
 .jumbotron {
