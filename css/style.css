@@ -199,6 +199,12 @@ main .block-grey li::before{
     margin: 30px 0;
 }
 
+.btn-footer {
+    background-color: white;
+    color: #2d3e50;
+    margin: 0;
+}
+
 .btn-login:hover {
     background-color: #fff1ee;
     color: #ff7a59;
@@ -235,7 +241,7 @@ li > img {
 .list-inline a {
     padding: 10px 5px;
 }
-.list-inline a:not(.btn) {
+.page-header .list-inline a:not(.btn) {
     font-size: 14px;
     text-decoration: none;
     color: #3a4d60;
@@ -468,6 +474,7 @@ li > img {
 
 #section-3-2 {
     margin-bottom: 50px;
+    padding: 30px 0;
     background-image: url(../img/woman.webp);
     background-size: contain;
     background-position: top right;
@@ -481,5 +488,43 @@ li > img {
 footer {
     height: calc(100vh - 160px);
     background-color: #2d3e50;
+    color: #cbd6e2;
+    font-size: 14px;
+}
+
+footer .float-left {
+    margin-top: 50px;
+}
+
+footer h4 {
+    font-size: 16px;
+    margin-bottom: 25px;
     color: white;
+}
+
+footer .list-vertical li {
+    padding-bottom: 15px;
+}
+
+footer a {
+    color: #cbd6e2;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer i {
+    color: #cbd6e2;
+}
+footer .w-25 .list-inline a {
+    padding: 0 10px;
+}
+.footer-columns {
+    padding-bottom: 50px;
+}
+
+.footer-languages {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cbd6e2;
+    font-weight: 400;
 }
