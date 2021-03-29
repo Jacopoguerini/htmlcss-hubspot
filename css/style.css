@@ -19,6 +19,9 @@ body {
 .float-left {
     float: left;
 }
+.float-right {
+    float: right;
+}
 
 .relative {
     position: relative;
@@ -328,16 +331,15 @@ li > img {
     margin-bottom: 50px;    
 }
 
-#section-1-2 .row h4 {
+#section-1-2 .row h4::after {
+    content: "";
     display: inline-block;
-}  
-
-#section-1-2 .row hr {
-    display: inline-block;
-    width: 60%;
-    margin-left: 40px;
-    border-width: 2px;
+    width: 40%;
+    margin-left: 20px;
+    border-bottom: 1px solid #3a4d60;
+    line-height: 0.5em;
 }
+
 
 #section-1-2 p,
 #section-1-2 .row {
@@ -390,7 +392,7 @@ li > img {
     margin: 0 5%;
 }
 
-/* main section blue */
+/* main section 2 */
 #section-blue-title {
     padding: 50px 0;
 }
@@ -438,5 +440,43 @@ li > img {
     top: 50%;
     transform: translateY(-50%);
 }
+
+/* main section 3 */
+#section-3-1 {
+    margin: 50px 0;
+}
+#section-3-1 .w-40 {
+    padding: 0 90px;
+}
+#section-3-1 h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+#section-3-1 > .w-40 span {
+    font-weight: bold;
+}
+
+#logo-grid {
+    height: 50px;
+    vertical-align: middle;
+}
+#logo-grid img {
+    width: 20%;
+    vertical-align: middle;
+    margin: 0 1% 15px 1%;
+}
+
+#section-3-2 {
+    margin-bottom: 50px;
+    background-image: url(../img/woman.webp);
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+#section-3-2 .w-60 {
+    text-align: right;
+}
+
+
 
 /* footer */
