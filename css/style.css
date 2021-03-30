@@ -433,9 +433,13 @@ li > img {
 #grid > .float-left:nth-child(-n+4){
     border-bottom: 1px solid white;
 }
-#grid > .central-cell {
-    border-left: 1px solid white;
+#grid > .float-left:nth-last-child(2n+2) {
+    border-right: 1px solid white;
 }
+#grid > .float-left:nth-last-child(4n+3) {
+    border-right: 1px solid white;
+}
+
 
 .data h2 {
     display: inline;
@@ -482,9 +486,6 @@ li > img {
     background-size: contain;
     background-position: top right;
     background-repeat: no-repeat;
-}
-#section-3-2 .w-60 {
-    text-align: right;
 }
 
 /* footer */
